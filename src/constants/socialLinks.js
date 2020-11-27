@@ -1,37 +1,33 @@
 import React from "react"
 import {
-  FaFacebookSquare,
   FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
-  FaTwitterSquare,
+  FaGithubSquare,
 } from "react-icons/fa"
+import {
+  AiFillRedditSquare,
+  AiFillMinusSquare,
+} from "react-icons/ai"
 
 const data = [
   {
     id: 1,
-    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.twitter.com",
+    icon: <AiFillRedditSquare className="social-icon"></AiFillRedditSquare>,
+    url: "https://www.reddit.com/user/JayD_reddit",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/jduarte4",
   },
   {
     id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
+    url: "https://www.github.com/JonathanDuarteGH",
   },
   {
     id: 4,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    url: "https://www.twitter.com",
-  },
-  {
-    id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    icon: <AiFillMinusSquare className="social-icon"></AiFillMinusSquare>,
+    url: "https://www.stackoverflow.com/users/11481722/elgnis3901",
   },
 ]
 const links = data.map(link => {

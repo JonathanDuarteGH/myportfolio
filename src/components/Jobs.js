@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Title from "./Title"
 import { FaAngleDoubleRight } from "react-icons/fa"
 import { graphql, useStaticQuery } from "gatsby"
@@ -27,7 +27,7 @@ const Jobs = () => {
     allStrapiJobs: { nodes: jobs },
   } = data;
 
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
   const { company, position, date, desc } = jobs[value]
 
   return (

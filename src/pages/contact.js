@@ -9,9 +9,9 @@ const contact = () => {
           <h3>get in touch</h3>
           <form action="https://formspree.io/f/xpzoylpj" method="POST">
             <div className="form-group">
-              <input type="text" name="name" placeholder="name" className="form-control" />
-              <input type="text" name="email" placeholder="email" className="form-control" />
-              <textarea name="message" rows="5" placeholder="message" className="form-control"></textarea>
+              <input type="text" name="name" placeholder="name" className="form-control" required />
+              <input type="text" name="email" placeholder="email" className="form-control" required />
+              <textarea name="message" rows="5" placeholder="message" className="form-control" required></textarea>
             </div>
             <button type="submit" value="Send" className="submit-btn btn">
               submit here

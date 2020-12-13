@@ -6,7 +6,7 @@ import Projects from "../components/Projects"
 
 export default ({ data }) => {
   const {
-    allStrapiProjects: { nodes: projects },
+    allStrapiProjects: { nodes: projects }
   } = data
 
   return (

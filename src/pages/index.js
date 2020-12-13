@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero"
 import Projects from "../components/Projects"
+import SEO from "../components/SEO"
 
 export default ({ data }) => {
   const {
@@ -11,6 +12,7 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <SEO title="Home" description="this is my home page" />
       <Hero />
       <Projects projects={projects} title="featured projects" showLink />
     </Layout>

@@ -843,7 +843,7 @@ Footer
   color: var(--clr-primary-5);
 }
 .footer-links {
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 0 auto;
 }
 .footer .social-link {
   color: var(--clr-white);

@@ -34,7 +34,6 @@ const Jobs = () => {
     <section className="section jobs">
       <Title title="experience" />
       <div className="jobs-center">
-        {/*btn container*/}
         <div className="btn-container">
           {jobs.map((item, index) => {
             return (
@@ -47,7 +46,6 @@ const Jobs = () => {
             )
           })}
         </div>
-        {/*jobs info*/}
         <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>

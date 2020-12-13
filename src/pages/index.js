@@ -10,7 +10,7 @@ import Projects from "../components/Projects"
 export default ({ data }) => {
   const {
     allStrapiProjects: { nodes: projects },
-    allStrapiBlogs: { nodes: blogs },
+    // allStrapiBlogs: { nodes: blogs },
   } = data
 
   return (
@@ -46,23 +46,24 @@ export const query = graphql`
         }
       }
     }
-    allStrapiBlogs(limit: 3, sort: { fields: date, order: DESC }) {
-      nodes {
-        slug
-        content
-        description
-        date(formatString: "MMM Do, YYYY")
-        id
-        title
-        category
-        image {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
-    }
   }
 `
+
+// allStrapiBlogs(limit: 3, sort: { fields: date, order: DESC }) {
+//   nodes {
+//     slug
+//     content
+//     description
+//     date(formatString: "MMM Do, YYYY")
+//     id
+//     title
+//     category
+//     image {
+//       childImageSharp {
+//         fluid {
+//               ...GatsbyImageSharpFluid
+//         }
+//       }
+//     }
+//   }
+// }

@@ -6,12 +6,12 @@ import SEO from "../components/SEO"
 const Error = () => {
   return (
     <Layout>
-      <main className="error-error">
+      <main className="error-page">
         <div className="error-container">
           <h1>the page you were looking for doesn't exist!</h1>
           <Link to='/' className="btn">
             back home
-        </Link>
+          </Link>
         </div>
       </main>
     </Layout>

@@ -1,6 +1,6 @@
 # Portfolio
 
-My personal portfolio features frontend Gatsby app and a backend Strapi api using GraphQL as an endpoint to fetch queried data. React is used as a framework to pull every component together while Formspree is used as a custom form backend for my contact.
+My personal portfolio features frontend Gatsby app and a backend[Strapi](https://strapi.io/) api using [GraphQL](https://graphql.org/learn/) as an endpoint to fetch queried data. React is used as a framework to pull every component together while [Formspree](https://formspree.io/) is used as a custom form backend for my contact.
 
 I've added the code to GitHub so that the general public can view a snippet around my code.
 
@@ -19,7 +19,7 @@ Generate an admin panel and a CMS with relative ease using Content-Types Builder
 Strapi's admin panel has the ability to create, edit and delete your content.
 
 ### Developer-Friendly API
-Strapi provides an API that will easily display content to the world. It fetches any data you might need via a REST API or GraphQL endpoint.
+Strapi provides an API that will easily display content to the world. It fetches any data you might need via a REST API or [GraphQL](https://graphql.org/learn/) endpoint.
 
 ### Roles & Permissions
 Strapi has a built-in user system that allows you to manage who can access what.

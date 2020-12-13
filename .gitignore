@@ -75,9 +75,9 @@ ADDinFuture.txt
 assets/
 
 #ignore files until you have enough experience
-.components/Blog.js
-.components/Blogs.js
-.components/Jobs.js
-.pages/blog.js
-.templates/blog-template.js
-.gatsby-node.js
+Blog.js
+Blogs.js
+Jobs.js
+blog.js
+blog-template.js
+gatsby-node.js

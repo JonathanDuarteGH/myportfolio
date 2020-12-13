@@ -81,3 +81,6 @@ Jobs.js
 blog.js
 blog-template.js
 gatsby-node.js
+
+#ignore other files
+gatsby-config.js

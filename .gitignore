@@ -84,3 +84,5 @@ gatsby-node.js
 
 #ignore other files
 gatsby-config.js
+
+#ignore other projects
